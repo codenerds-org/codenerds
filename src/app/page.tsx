@@ -20,6 +20,7 @@ import foundersData from '@/../public/founders.json';
 import timelineData from '@/../public/timeline.json';
 import testimonialsData from '@/../public/testimonials.json';
 import projectsData from '@/../public/projects.json';
+import ContactForm from './components/ContactForm';
 
 export default function Home() {
   const mainRef = useRef<HTMLDivElement>(null);
@@ -123,7 +124,19 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="languages" className="pt-24">
+      <section id="projects" className="pt-24 w-full bg-blend-soft-light bg-[#0a0305]">
+        <div className="flex flex-col items-center">
+          <div className="flex flex-col mb-4 text-center">
+            <h1 className="text-4xl font-bold">Our Projects</h1>
+            <h2 className="text-[#ccc]">Shows that we are a good choice</h2>
+          </div>
+          <div className="flex items-center justify-center w-full">
+            <ProjectsSwiper data={projectsData} />
+          </div>
+        </div>
+      </section>
+
+      <section id="languages" className="pt-24 bg-[#0a0305]">
         <div className="marquee">
           <div className="marquee_group">
             <p aria-hidden="true"><FaReact /></p>
@@ -155,19 +168,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="projects" className="pt-24 w-full">
-        <div className="flex flex-col items-center">
-          <div className="flex flex-col mb-4 text-center">
-            <h1 className="text-4xl font-bold">Our Projects</h1>
-            <h2 className="text-[#ccc]">Shows that we are a good choice</h2>
-          </div>
-          <div className="flex items-center justify-center w-full">
-            <ProjectsSwiper data={projectsData} />
-          </div>
-        </div>
-      </section>
-
-      <section id="testimonials" className="pt-24">
+      <section id="testimonials" className="pt-24 bg-[#0a0305]">
         <div className="flex flex-col w-full items-center">
           <div className="flex flex-col mb-4 text-center">
             <h1 className="text-4xl font-bold">Testimonials</h1>
@@ -178,6 +179,17 @@ export default function Home() {
               return <Testimonial key={index} {...testimonial} />;
             })}
           </div>
+        </div>
+      </section>
+
+      <section id="contact" className="pt-32 bg-[#0a0305]">
+      <div className="bg-abs before:bg-[url(https://www.transparentpng.com/thumb/light-effect/MVda7h-swirls-photoshop-bolt.png)]" />
+        <div className="flex flex-col w-full items-center">
+          <div className="flex flex-col mb-4 text-center">
+            <h1 className="text-4xl font-bold">Contact Us</h1>
+            <h2 className="text-[#ccc]">Let's work together!</h2>
+          </div>
+          <ContactForm />
         </div>
       </section>
 
