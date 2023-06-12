@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const sendWebhook = async (email: string, name: string, message: string) => {
-    const webhookUrl = process.env.webhook_url!;
+    const webhookUrl = process.env.WEBHOOK_URL!;
     await fetch(webhookUrl, {
         method: "POST",
         headers: {
