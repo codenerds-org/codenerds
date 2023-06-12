@@ -100,7 +100,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="flex flex-col w-8/12 items-center">
+        <div className="flex flex-col w-11/12 md:w-8/12 items-center">
             <div className="flex flex-col md:flex-row w-full px-8 md:px-16 gap-6 md:gap-4">
                 <form className="flex flex-col w-full gap-4" onSubmit={handleSubmit}>
                     <div className="flex flex-col md:flex-row w-full gap-4">
