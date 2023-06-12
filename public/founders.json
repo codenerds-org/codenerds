@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Bartek",
+        "position": "Founder",
+        "birthday": "11/10/2004",
+        "longDescription": "lalala",
+        "icons": [
+            "FaPython",
+            "SiNextdotjs"
+        ]
+    },
+    {
+        "name": "Joachim",
+        "position": "Founder",
+        "birthday": "01/02/2005",
+        "longDescription": "I'm Joachim, the Founder of my own venture. Ever since I can remember, I've been captivated by the world of programming and technology. It's my passion, my calling, and my creative outlet. Born on May 2, 2005, I've dedicated myself to honing my skills and making a significant impact in the industry.\nThroughout my journey, I've become proficient in several programming languages, including Python, Next.js, React, PostgreSQL, TypeScript, and Flutter. Whether it's experimenting with new technologies, engaging in creative hobbies, or staying up-to-date with industry trends, I'm constantly learning and expanding my horizons.",
+        "icons": [
+            "FaPython",
+            "SiNextdotjs",
+            "FaReact",
+            "SiPostgresql",
+            "SiTypescript",
+            "RiFlutterFill"
+        ],
+        "image": "https://scontent-waw1-1.xx.fbcdn.net/v/t1.6435-9/121653142_775332209977849_3044843372832990187_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rb2HoQJ9Wi8AX9SwBgH&_nc_ht=scontent-waw1-1.xx&oh=00_AfA3615AnKmo-ufha2Xg1UHLKLGUo-dbx6YhACyqobeSZw&oe=64ADC475",
+        "socials": [
+            {
+                "icon": "FaFacebook",
+                "link": "https://www.facebook.com/joachim.kowalski.5/"
+            }
+        ]
+    },
+    {
+        "name": "Dominik",
+        "position": "Founder",
+        "birthday": "07/25/2007",
+        "longDescription": "lalala",
+        "icons": [
+            "FaPython",
+            "SiNextdotjs"
+        ]
+    }
+]
