@@ -3,7 +3,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFacebook, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => (
-    <footer className="h-48 w-full mt-24 flex flex-col items-center">
+    <footer className="w-full pt-40 flex flex-col items-center bg-[#0a0305] bg-blend-soft-light">
         <h1 className="text-5xl font-bold my-3" style={{
             background: `linear-gradient(92.54deg, #FFFFFF 0%, #505050 151.68%)`,
             WebkitBackgroundClip: `text`,
