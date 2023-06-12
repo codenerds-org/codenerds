@@ -170,7 +170,7 @@ export default function Home() {
 
       <section id="testimonials" className="pt-24 bg-[#0a0305]">
         <div className="flex flex-col w-full items-center">
-          <div className="flex flex-col mb-4 text-center">
+          <div className="flex flex-col mb-4 md:mb-12 text-center">
             <h1 className="text-5xl font-bold">Testimonials</h1>
             <h2 className="text-[#ccc]">What our clients say about us</h2>
           </div>
@@ -185,7 +185,7 @@ export default function Home() {
       <section id="contact" className="pt-32 bg-[#0a0305]">
       <div className="bg-abs before:bg-[url(https://www.transparentpng.com/thumb/light-effect/MVda7h-swirls-photoshop-bolt.png)]" />
         <div className="flex flex-col w-full items-center">
-          <div className="flex flex-col mb-4 text-center">
+          <div className="flex flex-col mb-4 md:mb-12 text-center">
             <h1 className="text-5xl font-bold">Contact Us</h1>
             <h2 className="text-[#ccc]">Let&apos;s work together!</h2>
           </div>
