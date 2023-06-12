@@ -16,7 +16,7 @@ const sendWebhook = async (email: string, name: string, message: string, ip: str
             "Content-Type": "application/json",
         },
         body: JSON.stringify({
-            content: `New message:\n\nEmail: ${email}\nName: ${name}\nIP: ${ip}\nMessage: ${sanitizedMessage}`,
+            content: `New message:\n\nEmail: ${email}\nName: ${name}\nIP: ${ip || "no ip"}\nMessage: ${sanitizedMessage}`,
         }),
     });
 };

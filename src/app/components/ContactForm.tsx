@@ -110,6 +110,7 @@ const ContactForm = () => {
                             name="name"
                             className={"w-full p-4 bg-transparent rounded-md border-2 outline-none transition" + (nameError ? " border-red-800" : " border-white/50")}
                             onChange={handleChange}
+                            value={name}
                             maxLength={50}
                             required
                         />
@@ -119,6 +120,7 @@ const ContactForm = () => {
                             name="email"
                             className={"w-full p-4 bg-transparent rounded-md border-2 outline-none transition" + (emailError ? " border-red-800" : " border-white/50")}
                             onChange={handleChange}
+                            value={email}
                             maxLength={50}
                             required
                         />
@@ -129,6 +131,7 @@ const ContactForm = () => {
                         className={"w-full p-4 bg-transparent rounded-md border-2 outline-none transition" + (messageError ? " border-red-800" : " border-white/50")}
                         rows={12}
                         onChange={handleChange}
+                        value={message}
                         maxLength={1500}
                         required
                     />
