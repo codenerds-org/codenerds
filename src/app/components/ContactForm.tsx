@@ -110,6 +110,8 @@ const ContactForm = () => {
                             name="name"
                             className={"w-full p-4 bg-transparent rounded-md border-2 outline-none transition" + (nameError ? " border-red-800" : " border-white/50")}
                             onChange={handleChange}
+                            maxLength={50}
+                            required
                         />
                         <input
                             type="email"
@@ -117,6 +119,8 @@ const ContactForm = () => {
                             name="email"
                             className={"w-full p-4 bg-transparent rounded-md border-2 outline-none transition" + (emailError ? " border-red-800" : " border-white/50")}
                             onChange={handleChange}
+                            maxLength={50}
+                            required
                         />
                     </div>
                     <textarea
@@ -125,6 +129,8 @@ const ContactForm = () => {
                         className={"w-full p-4 bg-transparent rounded-md border-2 outline-none transition" + (messageError ? " border-red-800" : " border-white/50")}
                         rows={12}
                         onChange={handleChange}
+                        maxLength={1500}
+                        required
                     />
                     <div className="flex flex-col">
                         <button
