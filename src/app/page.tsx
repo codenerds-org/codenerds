@@ -187,7 +187,7 @@ export default function Home() {
         <div className="flex flex-col w-full items-center">
           <div className="flex flex-col mb-4 text-center">
             <h1 className="text-4xl font-bold">Contact Us</h1>
-            <h2 className="text-[#ccc]">Let's work together!</h2>
+            <h2 className="text-[#ccc]">Let&apos;s work together!</h2>
           </div>
           <ContactForm />
         </div>
