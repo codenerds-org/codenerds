@@ -79,9 +79,9 @@ export default function Home() {
               <div className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border md:left-1/2"></div>
               {timelineData.map((timeline, index) => {
                 if (index % 2 === 0) {
-                  return <LeftTimeline key={index} {...timeline} />;
-                } else {
                   return <RightTimeline key={index} {...timeline} />;
+                } else {
+                  return <LeftTimeline key={index} {...timeline} />;
                 }
               })}
             </div>
