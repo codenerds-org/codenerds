@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://codenerds.tech/
+
+# Sitemaps
+Sitemap: https://codenerds.tech/sitemap.xml
