@@ -5,8 +5,8 @@ import Founder from './components/Founder';
 import FloatingIcons from './components/FloatingIcons';
 import { LeftTimeline, RightTimeline } from './components/Timeline';
 
-import { FaFacebook, FaPython, FaReact } from 'react-icons/fa';
-import { SiNextdotjs, SiPostgresql, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { FaPython, FaReact } from 'react-icons/fa';
+import { SiNextdotjs, SiTailwindcss, SiTypescript, SiArduino } from 'react-icons/si';
 import { IoLogoAndroid, IoLogoApple, IoLogoJavascript } from 'react-icons/io';
 import { AiOutlineConsoleSql } from 'react-icons/ai';
 import { BsCodeSlash } from 'react-icons/bs';
@@ -21,6 +21,8 @@ import timelineData from '@/../public/timeline.json';
 import testimonialsData from '@/../public/testimonials.json';
 import projectsData from '@/../public/projects.json';
 import ContactForm from './components/ContactForm';
+
+const marqueeIcons: IconType[] = [FaReact, FaPython, SiNextdotjs, RiFlutterFill, SiTailwindcss, SiTypescript, IoLogoJavascript, IoLogoAndroid, IoLogoApple, AiOutlineConsoleSql, BsCodeSlash, SiArduino]
 
 export default function Home() {
   const mainRef = useRef<HTMLDivElement>(null);
@@ -139,31 +141,19 @@ export default function Home() {
       <section id="languages" className="pt-24 bg-[#0a0305]">
         <div className="marquee">
           <div className="marquee_group">
-            <p aria-hidden="true"><FaReact /></p>
-            <p aria-hidden="true"><FaPython /></p>
-            <p aria-hidden="true"><SiNextdotjs /></p>
-            <p aria-hidden="true"><RiFlutterFill /></p>
-            <p aria-hidden="true"><SiTailwindcss /></p>
-            <p aria-hidden="true"><SiTypescript /></p>
-            <p aria-hidden="true"><IoLogoJavascript /></p>
-            <p aria-hidden="true"><IoLogoAndroid /></p>
-            <p aria-hidden="true"><IoLogoApple /></p>
-            <p aria-hidden="true"><AiOutlineConsoleSql /></p>
-            <p aria-hidden="true"><BsCodeSlash /></p>
+          {
+              marqueeIcons.map((Icon: IconType, index) => {
+                return <p aria-hidden={true} key={index}>{<Icon />}</p>;
+              })
+            }
           </div>
 
           <div aria-hidden="true" className="marquee_group">
-            <p><FaReact /></p>
-            <p><FaPython /></p>
-            <p><SiNextdotjs /></p>
-            <p><RiFlutterFill /></p>
-            <p><SiTailwindcss /></p>
-            <p><SiTypescript /></p>
-            <p><IoLogoJavascript /></p>
-            <p><IoLogoAndroid /></p>
-            <p><IoLogoApple /></p>
-            <p><AiOutlineConsoleSql /></p>
-            <p ><BsCodeSlash /></p>
+            {
+              marqueeIcons.map((Icon: IconType, index) => {
+                return <p key={index}>{<Icon />}</p>;
+              })
+            }
           </div>
         </div>
       </section>
@@ -183,7 +173,7 @@ export default function Home() {
       </section>
 
       <section id="contact" className="pt-32 bg-[#0a0305]">
-      <div className="bg-abs before:bg-[url(https://www.transparentpng.com/thumb/light-effect/MVda7h-swirls-photoshop-bolt.png)]" />
+        <div className="bg-abs before:bg-[url(https://www.transparentpng.com/thumb/light-effect/MVda7h-swirls-photoshop-bolt.png)]" />
         <div className="flex flex-col w-full items-center">
           <div className="flex flex-col mb-4 md:mb-12 text-center">
             <h1 className="text-5xl font-bold">Contact Us</h1>
