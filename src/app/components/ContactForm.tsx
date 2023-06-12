@@ -108,29 +108,29 @@ const ContactForm = () => {
                             type="text"
                             placeholder="Name"
                             name="name"
-                            className={"w-full p-4 bg-black rounded-md border-2 outline-none transition" + (nameError ? " border-red-800" : " border-white/50")}
+                            className={"w-full p-4 bg-transparent rounded-md border-2 outline-none transition" + (nameError ? " border-red-800" : " border-white/50")}
                             onChange={handleChange}
                         />
                         <input
                             type="email"
                             placeholder="Email"
                             name="email"
-                            className={"w-full p-4 bg-black rounded-md border-2 outline-none transition" + (emailError ? " border-red-800" : " border-white/50")}
+                            className={"w-full p-4 bg-transparent rounded-md border-2 outline-none transition" + (emailError ? " border-red-800" : " border-white/50")}
                             onChange={handleChange}
                         />
                     </div>
                     <textarea
                         placeholder="Message"
                         name="message"
-                        className={"w-full p-4 bg-black rounded-md border-2 outline-none transition" + (messageError ? " border-red-800" : " border-white/50")}
+                        className={"w-full p-4 bg-transparent rounded-md border-2 outline-none transition" + (messageError ? " border-red-800" : " border-white/50")}
                         rows={12}
                         onChange={handleChange}
                     />
                     <div className="flex flex-col">
                         <button
                             className={`
-                                w-full p-4 bg-black rounded-md 
-                                border-2 outline-none disabled:bg-black/50 disabled:text-white/50 disabled:cursor-not-allowed transition
+                                w-full p-4  rounded-md 
+                                border-2 outline-none  disabled:text-white/50 disabled:cursor-not-allowed transition
                                 ${buttonStatus()}
                             `}
                             disabled={emailError || nameError || messageError || email === "" || name === "" || message === ""}
