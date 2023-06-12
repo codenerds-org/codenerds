@@ -14,9 +14,12 @@ import { RiFlutterFill } from 'react-icons/ri';
 
 import loadable from "@loadable/component"
 import { IconType } from 'react-icons'
+import ProjectsSwiper from './components/Swiper';
 
 import foundersData from '@/../public/founders.json';
 import timelineData from '@/../public/timeline.json';
+import testimonialsData from '@/../public/testimonials.json';
+import projectsData from '@/../public/projects.json';
 
 export default function Home() {
   const mainRef = useRef<HTMLDivElement>(null);
@@ -152,6 +155,18 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="projects" className="pt-24 w-full">
+        <div className="flex flex-col items-center">
+          <div className="flex flex-col mb-4 text-center">
+            <h1 className="text-4xl font-bold">Our Projects</h1>
+            <h2 className="text-[#ccc]">Shows that we are a good choice</h2>
+          </div>
+          <div className="flex items-center justify-center w-full">
+            <ProjectsSwiper data={projectsData} />
+          </div>
+        </div>
+      </section>
+
       <section id="testimonials" className="pt-24">
         <div className="flex flex-col w-full items-center">
           <div className="flex flex-col mb-4 text-center">
@@ -159,10 +174,9 @@ export default function Home() {
             <h2 className="text-[#ccc]">What our clients say about us</h2>
           </div>
           <div className="flex flex-col md:flex-row w-full px-8 md:px-16 gap-6 md:gap-4">
-            <Testimonial name="Elon Musk" position="CEO of Microsoft" description="This kids is the real deal. They helped me with my project and I was amazed by the results." date="May 6, 2023" />
-            <Testimonial name="Elon Musk" position="CEO of Microsoft" description="This kids is the real deal. They helped me with my project and I was amazed by the results." date="May 6, 2023" />
-            <Testimonial name="Elon Musk" position="CEO of Microsoft" description="This kids is the real deal. They helped me with my project and I was amazed by the results." date="May 6, 2023" />
-            <Testimonial name="Elon Musk" position="CEO of Microsoft" description="This kids is the real deal. They helped me with my project and I was amazed by the results." date="May 6, 2023" />
+            {testimonialsData.map((testimonial, index) => {
+              return <Testimonial key={index} {...testimonial} />;
+            })}
           </div>
         </div>
       </section>

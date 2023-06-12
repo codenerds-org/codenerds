@@ -48,10 +48,10 @@ const FounderModal = ({ name, position, birthday, image, longDescription, icons,
         <>
             <div className="fixed z-50 top-0 left-0 w-screen h-screen bg-black bg-opacity-50 flex justify-center items-center"></div>
             <div className="fixed z-50 top-0 left-0 w-screen h-screen flex justify-center items-center">
-                <div className="bg-purple-500 bg-opacity-90 rounded-xl p-4 flex flex-col justify-center items-start w-10/12 md:w-1/2" ref={modalRef}>
+                <div className="bg-zinc-950 bg-opacity-95 rounded-xl p-4 flex flex-col justify-center items-start w-10/12 md:w-1/2" ref={modalRef}>
                     <div className="flex flex-row h-full w-full">
                         <div className="flex flex-col md:basis-1/4 basis-2/4 w-full items-center">
-                            <img src={image} className="bg-white w-32 h-32 rounded-full" />
+                            <img src={image} className="bg-white min-w-32 min-h-auto rounded-full" />
                         </div>
                         <div className="flex flex-col ml-4 h-full justify-center items-start mt-4 basis-1/2">
                             <h1 className="text-white text-center font-regular mt-1 text-lg md:text-2xl">{name}, {calculateAge(birthday)}</h1>
@@ -63,7 +63,7 @@ const FounderModal = ({ name, position, birthday, image, longDescription, icons,
                             </div>
                         </div>
                         <div className="flex flex-col h-full justify-end items-end basis-1/4 w-full">
-                            <AiOutlineClose className="text-xl cursor-pointer" onClick={() => setShowModal(false)}/>
+                            <AiOutlineClose className="text-xl cursor-pointer text-white/50 hover:text-white transition" onClick={() => setShowModal(false)}/>
                         </div>
                     </div>
                     <div className="flex flex-col md:ml-4">

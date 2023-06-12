@@ -543,3 +543,7 @@ body {
     transform: translateX(calc(-100% - 2rem));
   }
 }
+
+.swiper-button-prev, .swiper-button-next {
+  color: rebeccapurple !important;
+}
