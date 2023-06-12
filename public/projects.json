@@ -5,7 +5,7 @@
         "description": "Wazonowo.net is e-commerce website template for flower shop. Written in Django, fully responsive.",
         "image": "https://github.com/codenerds-org/wazonowo.net/raw/main/img_3.png",
         "url": "",
-        "github": "https://github.com/codenerds/wazonowo.net",
+        "github": "https://github.com/codenerds-org/wazonowo.net",
         "tags": ["django", "python", "html", "css", "e-commerce", "website"]
     },
     {
@@ -14,16 +14,16 @@
         "description": "Velluci is e-commerce website template for clothing shop. Fully responsive written in Next.js.",
         "image": "https://media.discordapp.net/attachments/1115753924033523783/1116438360249094154/image.png?width=1245&height=671",
         "url": "https://velluci.vercel.app/",
-        "github": "https://github.com/codenerds/velluci",
-        "tags": ["django", "python", "html", "css", "e-commerce", "website"]
+        "github": "https://github.com/codenerds-org/velluci",
+        "tags": ["next", "stripe", "html", "css", "e-commerce", "website"]
     },
     {
-        "name": "Sneakyourers",
-        "short_description": "Wazonowo.net is e-commerce website template for flower shop.",
-        "description": "Wazonowo.net is e-commerce website template for flower shop. Written in Django, fully responsive.",
-        "image": "https://github.com/codenerds-org/wazonowo.net/raw/main/img_3.png",
-        "url": "",
-        "github": "https://github.com/codenerds/wazonowo.net",
-        "tags": ["django", "python", "html", "css", "e-commerce", "website"]
+        "name": "InsightGuard",
+        "short_description": "InsightGuard is AI-powered, free to use and open source, cybersecurity API with a lot of functionalities.",
+        "description": "InsightGuard is AI-powered, free to use and open source, cybersecurity API with a lot of functionalities.",
+        "image": "https://i.im.ge/2023/06/12/isRLkh.image.png",
+        "url": "https://insightguard.tech/",
+        "github": "https://github.com/Style77/insightguard",
+        "tags": ["ai", "python", "next", "css", "api", "website", "saas", "cybersecurity"]
     }
 ]

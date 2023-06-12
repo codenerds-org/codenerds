@@ -1,3 +1,4 @@
+import { useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { IconType } from "react-icons/lib";
@@ -14,7 +15,8 @@ type Props = {
     socials?: {
         icon: IconType,
         link: string
-    }[]
+    }[],
+    index?: number,
 }
 
 type ModalProps = Props & {
@@ -63,7 +65,7 @@ const FounderModal = ({ name, position, birthday, image, longDescription, icons,
                             </div>
                         </div>
                         <div className="flex flex-col h-full justify-end items-end basis-1/4 w-full">
-                            <AiOutlineClose className="text-xl cursor-pointer text-white/50 hover:text-white transition" onClick={() => setShowModal(false)}/>
+                            <AiOutlineClose className="text-xl cursor-pointer text-white/50 hover:text-white transition" onClick={() => setShowModal(false)} />
                         </div>
                     </div>
                     <div className="flex flex-col md:ml-4">
@@ -85,8 +87,11 @@ const FounderModal = ({ name, position, birthday, image, longDescription, icons,
     );
 }
 
-const Founder = ({ name, position, birthday, image, longDescription, icons, socials }: Props) => {
+const Founder = ({ name, position, birthday, image, longDescription, icons, socials, index }: Props) => {
     const [showModal, setShowModal] = useState(false);
+
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true })
 
     useEffect(() => {
         // Add or remove the 'no-scroll' class to the body element based on the showModal state
@@ -105,7 +110,15 @@ const Founder = ({ name, position, birthday, image, longDescription, icons, soci
     return (
         <>
             {showModal && <FounderModal name={name} position={position} birthday={birthday} image={image} longDescription={longDescription} icons={icons} setShowModal={setShowModal} socials={socials} />}
-            <div className="flex flex-col">
+            <div
+                style={{
+                    transform: isInView ? "none" : "translatey(-100px)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) " + (index ? index * 0.5 : 0) + "s"
+                }}
+                className="flex flex-col"
+                ref={ref}
+            >
                 <img src={image} className="bg-white w-24 h-24 rounded-full cursor-pointer" onClick={() => setShowModal(!showModal)} />
                 <h1 className="text-white text-center font-medium mt-1" onClick={() => setShowModal(!showModal)}>{name}, {calculateAge(birthday)}</h1>
                 <h2 className="text-[#ccc] text-center font-medium mt-1">{position}</h2>

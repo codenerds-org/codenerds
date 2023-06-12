@@ -1,26 +1,26 @@
 [
-    {
-      "name": "Elon Musk",
-      "position": "CEO of Microsoft",
-      "description": "This kids is the real deal. They helped me with my project and I was amazed by the results.",
-      "date": "May 6, 2023"
-    },
-    {
-      "name": "Elon Musk",
-      "position": "CEO of Microsoft",
-      "description": "This kids is the real deal. They helped me with my project and I was amazed by the results.",
-      "date": "May 6, 2023"
-    },
-    {
-      "name": "Elon Musk",
-      "position": "CEO of Microsoft",
-      "description": "This kids is the real deal. They helped me with my project and I was amazed by the results.",
-      "date": "May 6, 2023"
-    },
-    {
-      "name": "Elon Musk",
-      "position": "CEO of Microsoft",
-      "description": "This kids is the real deal. They helped me with my project and I was amazed by the results.",
-      "date": "May 6, 2023"
-    }
-  ]
+  {
+    "name": "Marek Balcerzak",
+    "position": "CEO of Decision Sciences Company",
+    "description": "Codenerds played an important role at few stages of DSC development earning credits for proactive problem-solivng and dedication in delivery. WE routinely refer to this team with invites for co-work",
+    "date": "June 12, 2023"
+  },
+  {
+    "name": "Adam Paczkowski",
+    "position": "",
+    "description": "Choosing Codenerds as our software development partner was one of the best decisions we made. Their attention to detail, professionalism, and technical expertise have helped us bring our ideas to life. The team at Codenerds truly understands our vision and goes above and beyond to exceed our expectations.",
+    "date": "May 6, 2023"
+  },
+  {
+    "name": "Mariusz Malinowski",
+    "position": "",
+    "description": "Working with Codenerds has been an absolute pleasure. Their team is highly skilled, professional, and attentive to our needs. They took the time to understand our business goals and developed customized software solutions that have significantly improved our operations. We highly recommend Codenerds for any software development needs.",
+    "date": "May 1, 2023"
+  },
+  {
+    "name": "Dariusz Walkowski",
+    "position": "CEO of Microsoft",
+    "description": "This kids is the real deal. They helped me with my project, and I was amazed by the results. Codenerds, with their unmatched software development skills, took my vision and turned it into a reality. From the initial consultation to the final product delivery, their team displayed professionalism, expertise, and a genuine passion for what they do.",
+    "date": "April 4, 2023"
+  }
+]

@@ -3,30 +3,53 @@
         "name": "Bartek",
         "position": "Founder",
         "birthday": "11/10/2004",
-        "longDescription": "lalala",
+        "longDescription": "From a young age, I have been fascinated with computers and all things related to technology. This passion eventually led me to discover my calling in programming several years ago. Ever since, I have been on an exciting journey of learning and self-development in the field.\n\nI constantly strive to expand my knowledge and skills in programming. Whether it's diving into new programming languages, exploring innovative frameworks, or staying up-to-date with the latest industry trends, I am always eager to embrace new challenges and enhance my abilities.\n\nIn addition to my programming pursuits, I have a keen interest in fashion and music. I find inspiration in the ever-evolving world of fashion, and I appreciate how music has the power to evoke emotions and bring people together.",
         "icons": [
-            "FaPython",
-            "SiNextdotjs"
+            "RiFlutterFill",
+            "FaFigma",
+            "FaReact",
+            "FaSwift",
+            "TbSql"
+        ],
+        "image": "https://media.discordapp.net/attachments/1115305250526609553/1117846021926563860/white-IMG_6165.jpg",
+        "socials": [
+            {
+                "icon": "FaGithub",
+                "link": "https://github.com/kluczi"
+            },
+            {
+                "icon": "FaLinkedin",
+                "link": "https://www.linkedin.com/in/bartek-kluska/"
+            }
         ]
     },
     {
         "name": "Joachim",
         "position": "Founder",
         "birthday": "01/02/2005",
-        "longDescription": "I'm Joachim, the Founder of my own venture. Ever since I can remember, I've been captivated by the world of programming and technology. It's my passion, my calling, and my creative outlet. Born on May 2, 2005, I've dedicated myself to honing my skills and making a significant impact in the industry.\nThroughout my journey, I've become proficient in several programming languages, including Python, Next.js, React, PostgreSQL, TypeScript, and Flutter. Whether it's experimenting with new technologies, engaging in creative hobbies, or staying up-to-date with industry trends, I'm constantly learning and expanding my horizons.",
+        "longDescription": "I'm Joachim, ever since I can remember, I've been captivated by the world of programming and technology. It's my passion, and my creative outlet. \n\nThroughout my journey, I've become proficient in several programming languages, including Python, TypeScript, Flutter and many other technologies including SQL and No-SQL databases, multiple frameworks - React, Next.js and libraries like Pandas or Numpy.\n\nWhether it's experimenting with new technologies, engaging in creative hobbies, or staying up-to-date with industry trends, I'm constantly learning and expanding my horizons.",
         "icons": [
             "FaPython",
             "SiNextdotjs",
             "FaReact",
-            "SiPostgresql",
             "SiTypescript",
-            "RiFlutterFill"
+            "RiFlutterFill",
+            "SiPostgresql",
+            "SiArduino"
         ],
         "image": "https://scontent-waw1-1.xx.fbcdn.net/v/t1.6435-9/121653142_775332209977849_3044843372832990187_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rb2HoQJ9Wi8AX9SwBgH&_nc_ht=scontent-waw1-1.xx&oh=00_AfA3615AnKmo-ufha2Xg1UHLKLGUo-dbx6YhACyqobeSZw&oe=64ADC475",
         "socials": [
             {
-                "icon": "FaFacebook",
-                "link": "https://www.facebook.com/joachim.kowalski.5/"
+                "icon": "FaLinkedin",
+                "link": "https://www.linkedin.com/in/joachim-hodana-33815b245/"
+            },
+            {
+                "icon": "FaGithub",
+                "link": "https://github.com/style77"
+            },
+            {
+                "icon": "FaGlobe",
+                "link": "https://youwish-dev-style77.vercel.app/"
             }
         ]
     },
@@ -34,10 +57,23 @@
         "name": "Dominik",
         "position": "Founder",
         "birthday": "07/25/2007",
-        "longDescription": "lalala",
+        "longDescription": "My name is Dominik, and I'm 16 years old. I have been involved in programming with great passion for the past four years. Initially, I focused on learning the Python language, which served as a gateway for me to explore the secrets of programming.\n\nOver time, I became interested in web development and mobile app creation. I expanded my skills to include technologies such as React, Next.js, and FlutterFlow, enabling me to build interactive and modern user interfaces.\n\nI am fascinated by the possibilities that programming offers, and I constantly strive to grow by learning new tools and technologies. My projects reflect my passion and dedication to creating applications that are both functional and aesthetically pleasing.",
         "icons": [
             "FaPython",
-            "SiNextdotjs"
+            "SiNextdotjs",
+            "FaReact",
+            "SiMongodb",
+            "SiPostgresql"
+        ],
+        "socials": [
+            {
+                "icon": "FaGithub",
+                "link": "https://github.com/th11n"
+            },
+            {
+                "icon": "FaFacebook",
+                "link": "https://www.facebook.com/dominik.krakowiak.526/"
+            }
         ]
     }
 ]
