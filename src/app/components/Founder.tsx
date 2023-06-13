@@ -1,4 +1,5 @@
 import { useInView } from "framer-motion";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { IconType } from "react-icons/lib";
@@ -53,7 +54,7 @@ const FounderModal = ({ name, position, birthday, image, longDescription, icons,
                 <div className="bg-[#1b070d] bg-opacity-95 rounded-xl p-4 flex flex-col justify-center items-start w-10/12 md:w-1/2" ref={modalRef}>
                     <div className="flex flex-row h-full w-full">
                         <div className="flex flex-col md:basis-1/4 basis-2/4 w-full items-center">
-                            <img src={image} className="bg-white min-w-32 min-h-auto rounded-full border-0" />
+                            <Image src={image!} width={128} height={128} alt={name} className="bg-white min-w-32 min-h-auto rounded-full border-0" />
                         </div>
                         <div className="flex flex-col ml-4 h-full justify-center items-start mt-4 basis-1/2">
                             <h1 className="text-white text-center font-regular mt-1 text-lg md:text-2xl">{name}, {calculateAge(birthday)}</h1>
@@ -119,7 +120,7 @@ const Founder = ({ name, position, birthday, image, longDescription, icons, soci
                 className="flex flex-col"
                 ref={ref}
             >
-                <img src={image} className="bg-white w-24 h-24 rounded-full cursor-pointer" onClick={() => setShowModal(!showModal)} />
+                <Image src={image!} width={96} height={96} alt={name} className="bg-white w-24 h-24 rounded-full cursor-pointer" onClick={() => setShowModal(!showModal)} />
                 <h1 className="text-white text-center font-medium mt-1" onClick={() => setShowModal(!showModal)}>{name}, {calculateAge(birthday)}</h1>
                 <h2 className="text-[#ccc] text-center font-medium mt-1">{position}</h2>
             </div>

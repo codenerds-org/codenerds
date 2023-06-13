@@ -92,8 +92,8 @@ export default function Home() {
         <section id="story" className="pt-12 md:pt-24">
           <div className="flex flex-col w-full items-center">
             <div className="flex flex-col mb-4 text-center">
-              <h1 className="text-5xl font-bold">Story</h1>
-              <h2 className="text-[#ccc]">How our roads crossed</h2>
+              <h2 className="text-5xl font-bold">Story</h2>
+              <h3 className="text-[#ccc]">How our roads crossed</h3>
             </div>
             <div className="container mx-auto w-full h-full">
               <div className="relative wrap overflow-hidden p-10 h-full">
@@ -148,8 +148,8 @@ export default function Home() {
         <section id="projects" className="pt-24 w-full bg-blend-soft-light bg-[#0a0305]">
           <div className="flex flex-col items-center">
             <div className="flex flex-col mb-4 md:mb-12 text-center">
-              <h1 className="text-5xl font-bold">Our Projects</h1>
-              <h2 className="text-[#ccc]">Shows that we are a good choice</h2>
+              <h2 className="text-5xl font-bold">Our Projects</h2>
+              <h3 className="text-[#ccc]">Shows that we are a good choice</h3>
             </div>
             <div className="flex items-center justify-center w-full">
               <ProjectsSwiper data={projectsData} />
@@ -180,8 +180,8 @@ export default function Home() {
         <section id="testimonials" className="pt-24 bg-[#0a0305]">
           <div className="flex flex-col w-full items-center">
             <div className="flex flex-col mb-4 md:mb-12 text-center">
-              <h1 className="text-5xl font-bold">Testimonials</h1>
-              <h2 className="text-[#ccc]">What our clients say about us</h2>
+              <h2 className="text-5xl font-bold">Testimonials</h2>
+              <h3 className="text-[#ccc]">What our clients say about us</h3>
             </div>
             <div className="flex flex-col md:flex-row w-full px-8 md:px-16 gap-6 md:gap-4">
               {testimonialsData.map((testimonial, index) => {
@@ -195,8 +195,8 @@ export default function Home() {
           <div className="bg-abs before:bg-[url(https://www.transparentpng.com/thumb/light-effect/MVda7h-swirls-photoshop-bolt.png)]" />
           <div className="flex flex-col w-full items-center">
             <div className="flex flex-col mb-4 md:mb-12 text-center">
-              <h1 className="text-5xl font-bold">Contact Us</h1>
-              <h2 className="text-[#ccc]">Let&apos;s work together!</h2>
+              <h2 className="text-5xl font-bold">Contact Us</h2>
+              <h3 className="text-[#ccc]">Let&apos;s work together!</h3>
             </div>
             <ContactForm />
           </div>
