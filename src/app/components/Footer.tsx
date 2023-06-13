@@ -4,12 +4,12 @@ import { BsFacebook, BsLinkedin } from "react-icons/bs";
 
 const Footer = () => (
     <footer className="w-full pt-40 flex flex-col items-center bg-[#0a0305] bg-blend-soft-light">
-        <h1 className="text-5xl font-bold my-3" style={{
+        <h2 className="text-5xl font-bold my-3" style={{
             background: `linear-gradient(92.54deg, #FFFFFF 0%, #505050 151.68%)`,
             WebkitBackgroundClip: `text`,
             WebkitTextFillColor: `transparent`,
             backgroundClip: `text`,
-        }}>CODENERDS</h1>
+        }}>CODENERDS</h2>
         <div className="flex flex-row">
             <a
                 href="https://www.facebook.com/dominik.krakowiak.526/"
@@ -56,9 +56,9 @@ const Footer = () => (
                 Contact
             </a>
         </div>
-        <h1 className="text-sm font-bold text-zinc-400 mb-3 mt-4">
+        <h3 className="text-sm font-bold text-zinc-400 mb-3 mt-4">
             © Copyright 2023 - Codenerds.tech 🤓
-        </h1>
+        </h3>
     </footer>
 )
 

@@ -57,8 +57,8 @@ const FounderModal = ({ name, position, birthday, image, longDescription, icons,
                             <Image src={image!} width={128} height={128} alt={name} className="bg-white min-w-32 min-h-auto rounded-full border-0" />
                         </div>
                         <div className="flex flex-col ml-4 h-full justify-center items-start mt-4 basis-1/2">
-                            <h1 className="text-white text-center font-regular mt-1 text-lg md:text-2xl">{name}, {calculateAge(birthday)}</h1>
-                            <h2 className="text-[#ccc] font-bold">{position}</h2>
+                            <h2 className="text-white text-center font-regular mt-1 text-lg md:text-2xl">{name}, {calculateAge(birthday)}</h2>
+                            <h3 className="text-[#ccc] font-bold">{position}</h3>
                             <div className="flex flex-row gap-1 text-[#ccc]/50 text-base md:text-lg mt-2">
                                 {icons?.map((LangIcon: IconType, index: number) => (
                                     <LangIcon key={index} className="hover:text-white transition" />
@@ -121,8 +121,8 @@ const Founder = ({ name, position, birthday, image, longDescription, icons, soci
                 ref={ref}
             >
                 <Image src={image!} width={96} height={96} alt={name} className="bg-white w-24 h-24 rounded-full cursor-pointer" onClick={() => setShowModal(!showModal)} />
-                <h1 className="text-white text-center font-medium mt-1" onClick={() => setShowModal(!showModal)}>{name}, {calculateAge(birthday)}</h1>
-                <h2 className="text-[#ccc] text-center font-medium mt-1">{position}</h2>
+                <h2 className="text-white text-center font-medium mt-1" onClick={() => setShowModal(!showModal)}>{name}, {calculateAge(birthday)}</h2>
+                <h3 className="text-[#ccc] text-center font-medium mt-1">{position}</h3>
             </div>
         </>
     );

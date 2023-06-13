@@ -30,8 +30,8 @@ const ProjectsSwiper = ({ data }: ProjectsSwiperProps) => {
                                 <Image src={project.image} height={676} width={1246} alt={project.name} className="w-full h-full object-cover" />
                                 <div className="md:absolute md:bottom-0 md:left-0 md:w-full md:bg-black/50 py-4 text-center bg-transparent">
                                     <div className="flex flex-row w-full justify-center items-center gap-2">
-                                        <h1 className="text-2xl font-bold text-white">{project.name}</h1>
-                                        <h1 className="text-2xl font-bold text-[#ccc]">|</h1>
+                                        <h2 className="text-2xl font-bold text-white">{project.name}</h2>
+                                        <h3 className="text-2xl font-bold text-[#ccc]">|</h3>
                                         {
                                             project.github && <a href={project.github} target="_blank" rel="noreferrer">
                                                 <FaGithub className="flex text-xl text-[#ccc]/50 hover:text-white transition" />
