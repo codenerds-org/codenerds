@@ -29,7 +29,20 @@ export const metadata: Metadata = {
       index: true,
       follow: true
     }
-  }
+  },
+  openGraph: {
+    url: "https://codenerds.tech/",
+    title: "Codenerds - Development and Design Agency",
+    description: "Codenerds is a leading development and design agency. We specialize in creating innovative and custom solutions to turn your dream projects into reality.",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Codenerds - Development and Design Agency"
+      }
+    ],
+  },
 }
 
 const raleway = Raleway({
