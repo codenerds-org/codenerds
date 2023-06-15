@@ -70,7 +70,15 @@ export default function Home() {
           url: 'https://codenerds.tech/',
           title: 'Codenerds - Development and Design Agency',
           description: 'Codenerds is a leading development and design agency. We specialize in creating innovative and custom solutions to turn your dream projects into reality.',
-          siteName: 'Codenerds'
+          siteName: 'Codenerds',
+          images: [
+            {
+              url: 'https://codenerds.tech/og.png',
+              width: 1200,
+              height: 630,
+              alt: 'Codenerds - Development and Design Agency',
+            }
+          ]
         }}
       />
       <main className="flex flex-col min-h-screen" onMouseMove={handleMouseMove} ref={mainRef}>
