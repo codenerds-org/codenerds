@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 import { FaGithub, FaGlobe } from 'react-icons/fa';
 import Image from 'next/image';
+import useMobileDetect from '../hooks/useMobile';
 
 
 type ProjectsSwiperProps = {
@@ -13,6 +14,8 @@ type ProjectsSwiperProps = {
 }
 
 const ProjectsSwiper = ({ data }: ProjectsSwiperProps) => {
+    const { isMobile } = useMobileDetect();
+
     return (
         <Swiper
             spaceBetween={50}
@@ -27,7 +30,9 @@ const ProjectsSwiper = ({ data }: ProjectsSwiperProps) => {
                     <SwiperSlide key={project.name}>
                         <div className="flex flex-col h-full justify-center items-center">
                             <div className="w-8/12 relative">
-                                <Image src={project.image} height={676} width={1246} alt={project.name} className="w-full h-full object-cover" />
+                                <a {...isMobile() && { href: project.url }} target="_blank" rel="noreferrer">
+                                    <Image src={project.image} height={676} width={1246} alt={project.name} className="w-full h-full object-cover" />
+                                </a>
                                 <div className="md:absolute md:bottom-0 md:left-0 md:w-full md:bg-black/50 py-4 text-center bg-transparent">
                                     <div className="flex flex-row w-full justify-center items-center gap-2">
                                         <h2 className="text-2xl font-bold text-white">{project.name}</h2>
