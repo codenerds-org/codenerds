@@ -6,7 +6,7 @@ export default function Preview({
     };
   }) {
     return (
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gray-800">
+      <main className="flex min-h-screen flex-col items-center justify-center bg-[#202023]">
         <iframe
           id="mobile-iframe"
           src={`https://${searchParams.website}`}
