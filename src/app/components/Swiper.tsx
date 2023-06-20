@@ -44,6 +44,16 @@ const ProjectsSwiper = ({ data }: ProjectsSwiperProps) => {
                                         }
                                     </div>
                                     <p className="text-[#ccc]">{project.description}</p>
+                                    <div className="flex flex-row justify-center items-center gap-2 mt-2">
+                                        {
+                                            project.tags.map((tag: string) => {
+                                                return (
+                                                    <span key={tag} className="text-sm text-[#ccc] px-1.5 py-1 rounded-lg bg-slate-700/50">{tag}</span>
+                                                )
+                                            }
+                                            )
+                                        }
+                                    </div>
                                 </div>
                             </div>
                         </div>
