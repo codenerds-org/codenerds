@@ -185,7 +185,7 @@ export default function Home() {
               <h2 className="text-5xl font-bold">Testimonials</h2>
               <h3 className="text-[#ccc]">What our clients say about us</h3>
             </div>
-            <div className="flex flex-col md:flex-row w-full px-8 md:px-16 gap-6 md:gap-4">
+            <div className="flex flex-col xl:flex-row w-full px-8 xl:px-16 gap-6 xl:gap-4">
               {testimonialsData.map((testimonial, index) => {
                 return <Testimonial key={index} index={index} {...testimonial} />;
               })}

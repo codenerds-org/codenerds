@@ -14,7 +14,7 @@ const Testimonial = ({ name, position, description, date, index }: Props) => {
     const isInView = useInView(ref, { once: true })
 
     return (
-        <div className="border-2 border-white/50 p-4 md:w-1/4 rounded-xl" ref={ref} style={{
+        <div className="border-2 border-white/50 p-4 xl:w-1/4 rounded-xl" ref={ref} style={{
             transform: isInView ? "none" : "translatey(-100px)",
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) " + (index ? index * 0.5 : 0) + "s"
