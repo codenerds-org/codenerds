@@ -12,7 +12,7 @@
         "name": "Codenerds",
         "short_description": "Codenerds is our portfolio website. Fully responsive written in Next.js.",
         "description": "Codenerds is our portfolio website. Fully responsive written in Next.js.",
-        "image": "https://cdn.discordapp.com/attachments/1118225154800099339/1137928407926181989/image.png?width=1245&height=671",
+        "image": "https://media.discordapp.com/attachments/1118225154800099339/1137928407926181989/image.png?width=1245&height=671",
         "url": "https://codenerds.tech/",
         "github": "https://github.com/codenerds-org/codenerds",
         "tags": ["next", "html", "css", "website"]
@@ -29,7 +29,7 @@
         "name": "Quantex",
         "short_description": "Quantex is sentiment-based powerful trading signals bot. Written in Python.",
         "description": "Quantex is sentiment-based powerful trading signals bot. Sends signals to telegram channel. Written in Python.",
-        "image": "https://cdn.discordapp.com/attachments/1118225154800099339/1137928847027884042/image.png?width=1245&height=671",
+        "image": "https://media.discordapp.com/attachments/1118225154800099339/1137928847027884042/image.png?width=1245&height=671",
         "url": "https://t.me/quantex_signals",
         "github": "https://github.com/Style77/quantex",
         "tags": ["python", "telegram", "bot", "trading", "signals"]
