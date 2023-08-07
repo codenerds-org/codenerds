@@ -37,8 +37,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/og.png",
-        width: 1200,
-        height: 630,
+        width: 1360,
+        height: 1000,
         alt: "Codenerds - Development and Design Agency"
       }
     ],
