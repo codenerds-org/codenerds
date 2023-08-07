@@ -10,9 +10,9 @@
     },
     {
         "name": "Codenerds",
-        "short_description": "Codenerds is a website for our community. Fully responsive written in Next.js.",
-        "description": "Codenerds is a website for our community. Fully responsive written in Next.js.",
-        "image": "https://media.discordapp.net/attachments/1115753924033523783/1116438360249094154/image.png?width=1245&height=671",
+        "short_description": "Codenerds is our portfolio website. Fully responsive written in Next.js.",
+        "description": "Codenerds is our portfolio website. Fully responsive written in Next.js.",
+        "image": "https://cdn.discordapp.com/attachments/1118225154800099339/1137928407926181989/image.png",
         "url": "https://codenerds.tech/",
         "github": "https://github.com/codenerds-org/codenerds",
         "tags": ["next", "html", "css", "website"]
@@ -24,6 +24,15 @@
         "image": "https://media.discordapp.net/attachments/1118225154800099339/1137926897653784646/image.png?width=1248&height=676",
         "url": "https://bartekgorka.pl/",
         "tags": ["next", "html", "css", "website"]
+    },
+    {
+        "name": "Quantex",
+        "short_description": "Quantex is sentiment-based powerful trading signals bot. Written in Python.",
+        "description": "Quantex is sentiment-based powerful trading signals bot. Sends signals to telegram channel. Written in Python.",
+        "image": "https://cdn.discordapp.com/attachments/1118225154800099339/1137928847027884042/image.png",
+        "url": "https://t.me/quantex_signals",
+        "github": "https://github.com/Style77/quantex",
+        "tags": ["python", "telegram", "bot", "trading", "signals"]
     },
     {
         "name": "Wazonowo.net",
