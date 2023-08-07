@@ -12,7 +12,7 @@
         "name": "Codenerds",
         "short_description": "Codenerds is our portfolio website. Fully responsive written in Next.js.",
         "description": "Codenerds is our portfolio website. Fully responsive written in Next.js.",
-        "image": "https://cdn.discordapp.com/attachments/1118225154800099339/1137928407926181989/image.png",
+        "image": "https://cdn.discordapp.com/attachments/1118225154800099339/1137928407926181989/image.png?width=1245&height=671",
         "url": "https://codenerds.tech/",
         "github": "https://github.com/codenerds-org/codenerds",
         "tags": ["next", "html", "css", "website"]
@@ -21,7 +21,7 @@
         "name": "bartekgorka.pl",
         "short_description": "Portfolio like photo gallery with photos made by Bartek Górka. Super simple, but clean and aesthetic website.",
         "description": "Portfolio like photo gallery with photos made by Bartek Górka. Super simple, but clean and aesthetic website.",
-        "image": "https://media.discordapp.net/attachments/1118225154800099339/1137926897653784646/image.png?width=1248&height=676",
+        "image": "https://media.discordapp.net/attachments/1118225154800099339/1137926897653784646/image.png?width=1245&height=671",
         "url": "https://bartekgorka.pl/",
         "tags": ["next", "html", "css", "website"]
     },
@@ -29,7 +29,7 @@
         "name": "Quantex",
         "short_description": "Quantex is sentiment-based powerful trading signals bot. Written in Python.",
         "description": "Quantex is sentiment-based powerful trading signals bot. Sends signals to telegram channel. Written in Python.",
-        "image": "https://cdn.discordapp.com/attachments/1118225154800099339/1137928847027884042/image.png",
+        "image": "https://cdn.discordapp.com/attachments/1118225154800099339/1137928847027884042/image.png?width=1245&height=671",
         "url": "https://t.me/quantex_signals",
         "github": "https://github.com/Style77/quantex",
         "tags": ["python", "telegram", "bot", "trading", "signals"]
@@ -38,7 +38,7 @@
         "name": "Wazonowo.net",
         "short_description": "Wazonowo.net is e-commerce website template for flower shop.",
         "description": "Wazonowo.net is e-commerce website template for flower shop. Written in Django, fully responsive.",
-        "image": "https://media.discordapp.net/attachments/1118225154800099339/1118225177340280973/img_3.png?width=1246&height=676",
+        "image": "https://media.discordapp.net/attachments/1118225154800099339/1118225177340280973/img_3.png?width=1245&height=671",
         "url": "",
         "github": "https://github.com/codenerds-org/wazonowo.net",
         "tags": ["django", "python", "html", "css", "e-commerce", "website"]
@@ -47,7 +47,7 @@
         "name": "InsightGuard",
         "short_description": "InsightGuard is AI-powered, free to use and open source, cybersecurity API with a lot of functionalities.",
         "description": "InsightGuard is AI-powered, free to use and open source, cybersecurity API with a lot of functionalities.",
-        "image": "https://media.discordapp.net/attachments/1118225154800099339/1118225196889935892/isRLkh.png?width=1248&height=676",
+        "image": "https://media.discordapp.net/attachments/1118225154800099339/1118225196889935892/isRLkh.png?width=1245&height=671",
         "url": "https://insightguard.tech/",
         "github": "https://github.com/Style77/insightguard",
         "tags": ["ai", "python", "next", "css", "api", "website", "saas"]
@@ -56,7 +56,7 @@
         "name": "Learniverse",
         "short_description": "Learniverse is mobile app for posting and rating short facts.",
         "description": "Learniverse is mobile app for posting and rating short facts.",
-        "image": "https://media.discordapp.net/attachments/1118225154800099339/1120508853814038568/image.png?width=1061&height=559",
+        "image": "https://media.discordapp.net/attachments/1118225154800099339/1120508853814038568/image.png?width=1245&height=671",
         "url": "https://codenerds.tech/preview?website=learniverse-2nq1ve.flutterflow.app",
         "github": "",
         "tags": ["flutter", "dart", "mobile", "app", "ios", "android"]
@@ -65,7 +65,7 @@
         "name": "Brainteaser",
         "short_description": "Brainteaser is trivia game based on Jservice API.",
         "description": "Brainteaser is trivia game based on Jservice API.",
-        "image": "https://media.discordapp.net/attachments/1118225154800099339/1120507120144625684/image.png?width=1358&height=676",
+        "image": "https://media.discordapp.net/attachments/1118225154800099339/1120507120144625684/image.png?width=1245&height=671",
         "url": "https://codenerds.tech/preview?website=brainteaser.flutterflow.app",
         "github": "",
         "tags": ["flutter", "dart", "mobile", "app", "ios", "android"]
